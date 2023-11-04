@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {SiCodechef} from 'react-icons/Si'
+import {SiCodechef} from 'react-icons/si'
 const HeaderSocials = () => {
   return (
     <>
