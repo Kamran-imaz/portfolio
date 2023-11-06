@@ -1,6 +1,6 @@
 import React from 'react'
 import CV from '../../assets/cv.pdf'
-import ME from '../../assets/me.png'
+// import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 const CTA = () => {
   return (
@@ -11,7 +11,8 @@ const CTA = () => {
         <HeaderSocials/>
     </div>
     <div className="me">
-        <img src={ME} alt="my-pic" />
+        {/* <img src={ME} alt="my-pic" /> */}
+        <p>"Designing with passion and Coding with creativity" - Kamran Imaz</p>
     </div>
     </>
   )

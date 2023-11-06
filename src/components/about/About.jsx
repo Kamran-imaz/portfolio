@@ -1,5 +1,6 @@
 import React from "react";
-import ME from "../../assets/me-about.jpg";
+// import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/vottt.png";
 import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
@@ -31,13 +32,11 @@ const About = () => {
             <article className="about__card">
             <VscFolderLibrary className="about__icon" />
             <h5>Projects</h5>
+            <small>2 projects Completed</small>
           </article>
           </div>
           <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus et
-          iste neque repellendus quibusdam quod sequi at porro ratione cum sint
-          atque sunt, incidunt distinctio tempore est maxime. Dolores soluta
-          ratione excepturi repellat libero!.
+          I'm a highly skilled web developer with a strong foundation in full-stack development using the MERN (MongoDB, Express, React, Node.js) stack. With a proven track record of delivering high-quality web applications, I bring innovation and efficiency to every project. My experience encompasses front-end and back-end development, database design, and API integration. I'm passionate about creating user-friendly and responsive web solutions that meet clients' needs and exceed their expectations. Let's collaborate to bring your digital ideas to life.
         </p>
         <a href="#contact" className="btn btn-primary">
           Let's Talk
